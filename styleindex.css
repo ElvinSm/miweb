@@ -5,11 +5,12 @@ html body{
 }
 
 #header{
-    background-color: lightblue;
+    background-color: #FBFAFC;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: fit-content;
+    font-family: 'Poppins', sans-serif;
 }
 #header h1{
     display: flex;
@@ -22,13 +23,31 @@ html body{
     align-items: center;
 }
 #header ul li{
-    margin-left: 45px;    
+    margin-left: 45px;  
+    cursor: pointer;
+    transition: 40ms;  
+}
+#header ul li:hover{
+    text-decoration: underline;
+    margin-bottom: 13px;
+    transition: 40ms;
+    
 }
 .btnLogin{
-    border: none;
+    background-color: #FBFAFC;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     width: 143px;
     height: 58px;
     margin: 10px;
+    cursor: pointer;
+}
+.btnLogin:hover{
+    background-color: black;
+    border: solid 2px black;
+    color: white;
 }
 
 
