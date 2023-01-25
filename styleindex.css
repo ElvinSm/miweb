@@ -31,5 +31,42 @@ html body{
     margin: 10px;
 }
 
+/*star section*/
+
+#sectionOne{
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    margin-left: 177px;
+    margin-top: 60px;
+}
+
+.entrada{
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.btnSend{
+    background-color: white;
+    width: 10%;
+    padding: 15px 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 50ms;
+}
+.btnSend:hover{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 13%;
+}
 
 
